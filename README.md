@@ -17,6 +17,17 @@ Eg. Input : 123
     
 FirstLast.java has below goal (Also has used one of the above function)
 
-If integer Input: 1234 then Output: 1423  
-If integer Input: 12345 then Output: 15243
+1. If integer Input: 1234 then Output: 1423  
+2. If integer Input: 12345 then Output: 15243
 
+
+ArraySort.java finds the small and large element in array
+
+1. O(N) time complexity
+2. Not using any sort functionality
+
+Example:
+Input : -8,3,5,1,0,2,-1,-2,
+Output:
+Small Element is -8
+large Element is 5
