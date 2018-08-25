@@ -1,6 +1,6 @@
 package din.java.test;
 
-public class ss {
+public class ArraySort {
 public static void main(String[] args) {
 	int[] A = new int[]{3,5,1,0,2};
     
