@@ -21,7 +21,7 @@ FirstLast.java has below goal (Also has used one of the above function)
 2. If integer Input: 12345 then Output: 15243
 
 
-ArraySort.java finds the small and large element in array
+ArrayMinMax.java finds the small and large element in array
 
 1. O(N) time complexity
 2. Not using any sort functionality
@@ -31,3 +31,8 @@ Input : -8,3,5,1,0,2,-1,-2,
 Output:
 Small Element is -8
 large Element is 5
+
+OddMinElement.java, A program to find minimum odd number in a array
+Input : 3,5,10,0,2,
+Output:
+Minimum Odd Element is 3

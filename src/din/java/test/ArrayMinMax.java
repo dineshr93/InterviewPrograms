@@ -1,6 +1,6 @@
 package din.java.test;
 
-public class ArraySort {
+public class ArrayMinMax {
 public static void main(String[] args) {
 	int[] A = new int[]{-8,3,5,1,0,2,-1,-2};
 	int[] B = new int[]{-8,3,5,1,0,2,-1,-2};
