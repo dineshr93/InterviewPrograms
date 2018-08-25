@@ -2,23 +2,20 @@ package din.java.test;
 
 public class ArraySort {
 public static void main(String[] args) {
-	int[] A = new int[]{3,5,1,0,2};
-    
-	for (int i = 0; i < A.length; i++) {
-		
-		if(i+1 == A.length)
-			break;
-		System.out.println("i="+i);
-		System.out.println("i+1="+(i+1));
-		System.out.println("-----");
+	int[] A = new int[]{-8,3,5,1,0,2,-1,-2};
+	System.out.println(GetSmallElementInArray(A));
+}
+
+private static int GetSmallElementInArray(int[] A) {
+	int smallElement=0;
+	for (int i = 0; i+1 < A.length; i++) {
 		if(A[i] < A[i+1]){
-			
-			System.out.println(A[i]+" A[i] is small");
-		}else System.out.println(A[i+1]+" A[i+1] is small");
-		
-		System.out.println("============");
-		System.out.println("");
+			smallElement = A[i];
+			A[i+1]= A[i];
+		}else{
+			smallElement = A[i+1];
+		}
 	}
-	
+	return smallElement;
 }
 }
